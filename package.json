@@ -1,0 +1,36 @@
+{
+  "name": "lion-cli",
+  "version": "1.0.0",
+  "description": "一个简单的脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "lion"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JonesAtom/lion-cli.git"
+  },
+  "keywords": [
+    "lion-cli"
+  ],
+  "author": "panmingqing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonesAtom/lion-cli/issues"
+  },
+  "homepage": "https://github.com/JonesAtom/lion-cli#readme",
+  "bin": {
+    "lion": "./bin/lion",
+    "lion-add": "bin/lion-add",
+    "lion-del": "bin/lion-del",
+    "lion-list": "bin/lion-list",
+    "lion-init": "bin/lion-init"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^1.1.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  }
+}
