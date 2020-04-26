@@ -4,7 +4,7 @@
   "description": "一个简单的脚手架",
   "main": "index.js",
   "scripts": {
-    "test": "lion"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -21,11 +21,12 @@
   "homepage": "https://github.com/JonesAtom/lion-cli#readme",
   "bin": {
     "lion": "./bin/lion",
-    "lion-add": "bin/lion-add",
-    "lion-del": "bin/lion-del",
-    "lion-list": "bin/lion-list",
-    "lion-init": "bin/lion-init"
+    "lion-add": "./bin/lion-add",
+    "lion-del": "./bin/lion-del",
+    "lion-list": "./bin/lion-list",
+    "lion-init": "./bin/lion-init"
   },
+  "private": false,
   "dependencies": {
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
